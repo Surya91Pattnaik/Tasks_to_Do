@@ -40,6 +40,6 @@ CPU used
 disk used
 mem used
 network util
-some of them attached in TASK2.
+some of them attached as CPU_load.png and mem_usage.png 
 Tools involved/needed to capture these metrics are **Zabbix** and **PAFtool** which can execute various performance checks, custom checks on time interval.
 We can capture real time graphing, historical data storage via database and create custom dashboards using Zabbix.
