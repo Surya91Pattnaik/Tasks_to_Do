@@ -30,11 +30,11 @@ TASK1:
 /usr/bin/python3 Print_Random_Number.py
 
 # Output :
-6, 0, 3, 7, 4, 9, 2, 5, 8, 1
+[10, 4, 5, 2, 1, 8, 6, 7, 9, 3]
 
 # TASK2:
 
-As per the given specifications we can have various metrics which we can take into consideration like 
+1. As per the given specifications we can have various metrics which we can take into consideration like 
 CPU load
 CPU temp
 CPU used
@@ -42,5 +42,7 @@ disk used
 mem used
 network util
 some of them attached as CPU_load.png and mem_usage.png 
-Tools involved/needed to capture these metrics are **Zabbix** and **PAFtool** which can execute various performance checks, custom checks on time interval.
-We can capture real time graphing, historical data storage via database and create custom dashboards using Zabbix.
+2. Tools involved/needed to capture these metrics are **Zabbix** and **PAFtool** which can execute various performance checks, custom checks on time interval.
+3. We can capture real time graphing, historical data storage via database and create custom dashboards using Zabbix. 
+4. Additional we can check for sar report and cpu_load, zombie process, mem_util from top command on the server.
+5. Challenges faced could be proxy performance issues ,network issues,performance issues.
